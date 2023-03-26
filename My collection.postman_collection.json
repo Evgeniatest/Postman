@@ -402,7 +402,7 @@
 							"console.log(req_f)\r",
 							"// Проверить, что json response имеет параметр start_qa_salary\r",
 							"pm.test(\"Check property start_qa_salary\", function () {\r",
-							"    pm.expect(resp_f).to.have.have.property(\"start_qa_salary\");\r",
+							"    pm.expect(resp_f).to.have.property(\"start_qa_salary\");\r",
 							"});\r",
 							"// Проверить, что json response имеет параметр qa_salary_after_6_months\r",
 							"pm.test(\"Check property qa_salary_after_6_months\", function () {\r",
